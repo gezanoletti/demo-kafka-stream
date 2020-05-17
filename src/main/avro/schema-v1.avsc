@@ -1,0 +1,32 @@
+[
+  {
+    "namespace": "com.gezanoletti.demokafkaproducer.avro",
+    "name": "PersonMessageKey",
+    "type": "record",
+    "fields": [
+      {
+        "name": "id",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "namespace": "com.gezanoletti.demokafkaproducer.avro",
+    "name": "PersonMessageValue",
+    "type": "record",
+    "fields": [
+      {
+        "name": "id",
+        "type": "int"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "surname",
+        "type": "string"
+      }
+    ]
+  }
+]
